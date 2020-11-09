@@ -1,3 +1,8 @@
+:root {
+  --light-green: rgb(132, 182, 42);
+  --light-purple: rgb(103, 81, 144);
+}
+
 * {
   margin: 0px;
   padding: 0px;
@@ -78,7 +83,7 @@ p.title-pakiet {
   font-family: "Archivo Narrow", sans-serif;
   font-size: 44px;
   font-weight: 700;
-  color: rgb(132, 182, 42);
+  color: var(--light-green);
 }
 p.subtitle-pakiet {
   position: absolute;
@@ -88,7 +93,11 @@ p.subtitle-pakiet {
   font-family: "Archivo Narrow", sans-serif;
   font-size: 20px;
   font-weight: 700;
-  color: rgb(103, 81, 144);
+  color: var(--light-purple);
+}
+/* ROW2 - bg purple */
+.bg-purple {
+  background-color: var(--light-purple);
 }
 
 /* ROW3 div3 - ELEMENTS TO PLACE WITH POSITION RELATIVE */
@@ -100,7 +109,7 @@ p.title-app {
   font-family: "Archivo Narrow", sans-serif;
   font-size: 44px;
   font-weight: 700;
-  color: rgb(103, 81, 144);
+  color: var(--light-purple);
 }
 
 p.lorem {
@@ -178,7 +187,7 @@ footer div.row div {
   position: absolute;
   top: 10%;
   font-size: 40px;
-  color: rgb(103, 81, 144);
+  color: var(--light-purple);
 }
 .footer-nav a {
   font-size: 14px;
@@ -186,7 +195,7 @@ footer div.row div {
   text-decoration: none;
 }
 .footer-nav a:hover {
-  color: rgb(103, 81, 144);
+  color: var(--light-purple);
 }
 
 .footer-icons {
@@ -201,7 +210,7 @@ footer div.row div {
   position: absolute;
   top: 40%;
   right: 0;
-  color: rgb(132, 182, 42);
+  color: var(--light-green);
 }
 .grey {
   color: grey;
