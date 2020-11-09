@@ -15,8 +15,13 @@ body {
 
 /* HEADER - views/partials/_navbar.hbs */
 nav {
+  background-color: #fff;
+}
+.navbar {
   line-height: 60px;
   background-color: #fff;
+  padding-left: 0px;
+  padding-right: 0px;
 }
 
 .btn-circle.btn-md {
@@ -28,10 +33,10 @@ nav {
   text-align: center;
 }
 .btn-nav {
-  margin-left: 20%;
+  margin-left: 0%;
 }
 .ml-auto {
-  margin-right: 25%;
+  margin-right: 0%;
 }
 /* BODY ELEMENTS */
 .row > div {
@@ -153,6 +158,54 @@ img {
   font-size: 55px;
 }
 
+/* FOOTER */
+footer {
+  margin-top: 35px;
+  background-color: #fff;
+  color: #000;
+}
+.footer-item {
+  color: #000;
+}
+footer div.row div {
+  border: 0px solid white;
+  height: 90px;
+}
+.position-relative2 {
+  position: relative;
+}
+.fa-cloud-download-alt {
+  position: absolute;
+  top: 10%;
+  font-size: 40px;
+  color: rgb(103, 81, 144);
+}
+.footer-nav a {
+  font-size: 14px;
+  margin-right: 8%;
+  text-decoration: none;
+}
+.footer-nav a:hover {
+  color: rgb(103, 81, 144);
+}
+
+.footer-icons {
+  font-size: 12px;
+  text-align: right;
+}
+.footer-icons a {
+  color: grey;
+}
+
+.footer-text {
+  position: absolute;
+  top: 40%;
+  right: 0;
+  color: rgb(132, 182, 42);
+}
+.grey {
+  color: grey;
+}
 /* row2 div 1 - media for height */
 @media (max-width: 995px) {
   .three {
