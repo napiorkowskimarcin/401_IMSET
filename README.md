@@ -1,6 +1,6 @@
 # HOMEWORK IMSET
 
-## Task is to re-create a .psd template with ability to choose technology stack
+## Task is to re-create a .psd template with full freedom to choose technology stack
 
 ## Used:
 
