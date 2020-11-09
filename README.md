@@ -1,5 +1,9 @@
 # HOMEWORK IMSET
 
+## DEPLOYED TO HEROKU
+
+## https://imset-mn-homework.herokuapp.com/
+
 ## Task is to re-create a .psd template with full freedom to choose technology stack
 
 ## Used:
