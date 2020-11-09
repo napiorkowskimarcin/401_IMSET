@@ -152,3 +152,10 @@ img {
 .carousel-control-prev i {
   font-size: 55px;
 }
+
+/* row2 div 1 - media for height */
+@media (max-width: 995px) {
+  .three {
+    height: auto;
+  }
+}
