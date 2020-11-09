@@ -20,13 +20,15 @@ nav {
 }
 
 .btn-circle.btn-md {
-  margin-left: 20%;
   width: 46px;
   height: 46px;
   padding: 0px 13px;
   border-radius: 26px;
   font-size: 24px;
   text-align: center;
+}
+.btn-nav {
+  margin-left: 20%;
 }
 .ml-auto {
   margin-right: 25%;
@@ -37,8 +39,90 @@ nav {
   padding: 0;
   border: 1px solid black;
 }
-/* harmonization of the height if the rows */
-div.row:nth-of-type(3) div {
+/* button in row2, div1 */
+.position-relative1 {
+  position: relative;
+  min-height: 378px;
+}
+.position-absolute1 {
+  position: absolute;
+  top: 75.4%;
+  width: 58%;
+  margin-left: 21%;
+  padding: 5px;
+  border-radius: 0;
+  border-color: rgba(40, 32, 56, 0.5);
+  background-color: rgba(40, 32, 56, 0.5);
+}
+.position-absolute1:hover {
+  border-color: rgb(40, 32, 56);
+  background-color: rgb(58, 44, 83);
+}
+.position-absolute2 {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+/* ROW3 div1 - ELEMENTS TO PLACE WITH POSITION RELATIVE */
+p.title-pakiet {
+  position: absolute;
+  z-index: 10;
+  top: 4%;
+  left: 6%;
+  font-family: "Archivo Narrow", sans-serif;
+  font-size: 44px;
+  font-weight: 700;
+  color: rgb(132, 182, 42);
+}
+p.subtitle-pakiet {
+  position: absolute;
+  z-index: 10;
+  top: 17%;
+  left: 6%;
+  font-family: "Archivo Narrow", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  color: rgb(103, 81, 144);
+}
+
+/* ROW3 div3 - ELEMENTS TO PLACE WITH POSITION RELATIVE */
+p.title-app {
+  position: absolute;
+  z-index: 10;
+  top: 4%;
+  left: 6%;
+  font-family: "Archivo Narrow", sans-serif;
+  font-size: 44px;
+  font-weight: 700;
+  color: rgb(103, 81, 144);
+}
+
+p.lorem {
+  position: absolute;
+  z-index: 10;
+  top: 24%;
+  left: 7%;
+  font-family: "Archivo Narrow", sans-serif;
+  letter-spacing: 0.05px;
+  font-size: 20px;
+  font-weight: 400;
+  color: rgb(45, 45, 45);
+  line-height: 1.2;
+}
+
+.icons-row3 {
+  position: absolute;
+  z-index: 10;
+  top: 80%;
+  left: 7%;
+  font-size: 31px;
+}
+.fa-windows {
+  margin-left: 10px;
+}
+
+/* harmonization of the height if the rows div.row:nth-of-type(3) div {
   height: 325px;
 }
 
@@ -48,7 +132,7 @@ div.row:nth-of-type(2) div {
 
 div.row:nth-of-type(1) div {
   height: 460;
-}
+} */
 img {
   width: 100%;
   height: 100%;
